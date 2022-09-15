@@ -1,1 +1,9 @@
-# Pewlett-Hackard-Analysis
+# Pewlett Hackard Analysis
+.
+## Overview
+Pewlett Hackard is a large company boasting several thousand employees and it's been around for a long time. As baby boomers begin to retire at a rapid rate, Pewlett Hackard is to the future in two ways. First, it's offering retirement package for those who meet certain criteria. Second, it's starting to think about which positions will need to be filled in the near future. The number of upcoming retirements will leave thousands of job openings. What would happen to a company if they didn't look ahead and prepare for this many vacancies. Bobby is an up and coming HR analyist whose task is to perform employee research. Spefically, he needs to find answers to the folling questions; who will be retiring in the next few years and how many positions will Pewlett Hackard need to fill.? This analysis will help future=proof Pewlett Hackard by generating a list of all employees who are eligible for the retirement package. The employee data Bobby needs is only available in the form of six CSV files because Pewlet Hackard has been mainly using Excel and VBA
+.to work with their data. But now they've finally decided to update their methods and instead use SQL, a definite upgrade considering the amount of data. Your task is to help Bobby build an employee database with SQL by applying your data modeling, engineering, and analysis skills. 
+
+At Pewlett Hackard there are large number of employees that will soon be retiring. Working along side Bobby, we must determine the number of retiring employees per title, and identify employees who are eligible to particpate in a mentorship program. 
+
+Now that Bobby has proven his SQL chops, his manager has given both of you two more assignments: determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. Then, you’ll write a report that summarizes your analysis and helps prepare Bobby’s manager for the “silver tsunami” as many current employees reach retirement age.
