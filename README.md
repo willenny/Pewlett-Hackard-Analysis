@@ -41,3 +41,4 @@ Of the 240,124 current employees, 72,458 employees are retiring soon. This makes
 
 Note: Let's find how many engineer and staff their are currently with the company to see if we can possibly fill those roles with current employees and then see how many new hires will need to be made. 
 
+(I got stumped after this.
