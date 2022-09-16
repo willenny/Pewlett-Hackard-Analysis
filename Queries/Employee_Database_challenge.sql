@@ -55,3 +55,23 @@ ON (e.emp_no = ti.emp_no)
 WHERE de.to_date = ('9999-01-01')
 and (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 order by emp_no ASC;
+
+deliverable 3
+
+-- current exmployees that are not eligible to retire
+SELECT 
+e.emp_no,
+e.first_name,
+e.last_name,
+ti.title,
+de.to_date
+FROM employees as e
+LEFT JOIN dept_emp as de
+ON e.emp_no = de.emp_no
+LEFT JOIN titles as ti
+ON e.emp_no = ti.emp_no
+where (e.birth_date between '1965-01-01' and '9999-01-01') -- born after retirement eligibility
+AND (e.hire_date between '1988-01-01' and '9999-01-01') -- hired after retirement eligiblity
+and (de.to_date = ('9999-01-01')) -- currently employeed
+-- and ti.title contains "Engineer" or "Staff" -- this isn't right but I can't figure it out
+group by e.emp_no, de.to_date, ti.title;
